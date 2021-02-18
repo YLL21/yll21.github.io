@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yll21.github.io</id>
     <title>YLの博客</title>
-    <updated>2021-02-18T03:53:36.276Z</updated>
+    <updated>2021-02-18T05:09:55.858Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yll21.github.io"/>
     <link rel="self" href="https://yll21.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://yll21.github.io/images/avatar.png</logo>
     <icon>https://yll21.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, YLの博客</rights>
+    <entry>
+        <title type="html"><![CDATA[code]]></title>
+        <id>https://yll21.github.io/post/code/</id>
+        <link href="https://yll21.github.io/post/code/">
+        </link>
+        <updated>2021-02-18T04:55:41.000Z</updated>
+        <content type="html"><![CDATA[<p>使用掌控板硬件+kblink+网页端kittenblock制作打弹球</p>
+<h1 id="一简单了解掌控板">一.简单了解掌控板</h1>
+<blockquote>
+<p>掌控板是一块MicroPython微控制器板，很好的支持mPythonX/MicroPython/Python软件上功能。掌控板仅有信用卡的一半大小，板载加速度计，按键，触摸引脚、声光传感器、128*64的OLED屏幕等，主要用于青少年的编程教育。你可以利用掌控板实现任何酷炫的小发明，无论是机器人还是乐器，其乐无穷。</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="http://wiki.labplus.cn/images/thumb/c/cd/ZKB-ZhengMianBJ.png/800px-ZKB-ZhengMianBJ.png" alt="ZKB-ZhengMianBJ.png" loading="lazy"></figure>
+<h1 id="二编写准备">二.编写准备</h1>
+<p>打开网站：<a href="https://kblock.kittenbot.cn/">Kittenblock online</a></p>
+<figure data-type="image" tabindex="2"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218121744120.png" alt="image-20210218121744120" loading="lazy"></figure>
+<p>单击左上角 <strong>启动KLink</strong></p>
+<figure data-type="image" tabindex="3"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218122158265.png" alt="image-20210218122158265" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218122359890.png" alt="image-20210218122359890" loading="lazy"></figure>
+<p>如果还未安装KLink 需要下载安装    <a href="https://kblock.kittenbot.cn/klink/klink-win-1.2.7.zip">官方下载链接</a></p>
+<p>打开KLink  KLink启动后会在右下角托盘应用程序<img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218123246080.png" alt="image-20210218123246080" loading="lazy"></p>
+<p>点击左下角<img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218123527129.png" alt="image-20210218123527129" loading="lazy">添加拓展，添加<img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218123703116.png" alt="image-20210218123703116" loading="lazy"></p>
+<p>点击红框框出来的图标</p>
+<figure data-type="image" tabindex="5"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218124030079.png" alt="image-20210218124030079" loading="lazy"></figure>
+<p>将掌控板与电脑连接后 点击<strong>连接</strong></p>
+<figure data-type="image" tabindex="6"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218124202120.png" alt="image-20210218124202120" loading="lazy"></figure>
+<p>如图所示的，就是连接成功了</p>
+<figure data-type="image" tabindex="7"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218124312956.png" alt="image-20210218124312956" loading="lazy"></figure>
+<h1 id="三编写脚本">三.编写脚本</h1>
+<h2 id="添加素材">添加素材</h2>
+<h3 id="角色paddle-line-ball">角色：Paddle、Line、Ball</h3>
+<figure data-type="image" tabindex="8"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218124653415.png" alt="image-20210218124653415" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[批注]]></title>
         <id>https://yll21.github.io/post/pi-zhu/</id>
