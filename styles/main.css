@@ -2052,7 +2052,7 @@ p > code {
   }
 }
 body {
-      background-color: #eee;
+      background-color: #99e9f2;
     }.header {
         width: 960px;
         margin: 0 auto;
@@ -2158,7 +2158,7 @@ body {
       color: #fc6423;
       border-bottom-color: #fc6423;
     }.bg-color {
-      background-color: #fffffffe;
+      background-color: #edf2fffe;
     }
     .site-meta {
       background: #000 !important;
