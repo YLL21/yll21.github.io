@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yll21.github.io</id>
     <title>YLの博客</title>
-    <updated>2021-02-18T05:13:49.482Z</updated>
+    <updated>2021-02-18T10:20:03.055Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yll21.github.io"/>
     <link rel="self" href="https://yll21.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://yll21.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, YLの博客</rights>
     <entry>
-        <title type="html"><![CDATA[code]]></title>
+        <title type="html"><![CDATA[使用掌控板硬件+kblink+网页端kittenblock制作打弹球]]></title>
         <id>https://yll21.github.io/post/code/</id>
         <link href="https://yll21.github.io/post/code/">
         </link>
@@ -24,28 +24,36 @@
 <figure data-type="image" tabindex="1"><img src="http://wiki.labplus.cn/images/thumb/c/cd/ZKB-ZhengMianBJ.png/800px-ZKB-ZhengMianBJ.png" alt="ZKB-ZhengMianBJ.png" loading="lazy"></figure>
 <h1 id="二编写准备">二.编写准备</h1>
 <p>打开网站：<a href="https://kblock.kittenbot.cn/">Kittenblock online</a></p>
-<figure data-type="image" tabindex="2"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218121744120.png" alt="image-20210218121744120" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://yll21.github.io/post-images/1613625990790.png" alt="" loading="lazy"></figure>
 <p>单击左上角 <strong>启动KLink</strong></p>
-<figure data-type="image" tabindex="3"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218122158265.png" alt="image-20210218122158265" loading="lazy"></figure>
-<figure data-type="image" tabindex="4"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218122359890.png" alt="image-20210218122359890" loading="lazy"></figure>
-<p>如果还未安装KLink 需要下载安装    <a href="https://kblock.kittenbot.cn/klink/klink-win-1.2.7.zip">官方下载链接</a></p>
-<p>打开KLink  KLink启动后会在右下角托盘应用程序<img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218123246080.png" alt="image-20210218123246080" loading="lazy"></p>
-<p>点击左下角<img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218123527129.png" alt="image-20210218123527129" loading="lazy">添加拓展，添加<img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218123703116.png" alt="image-20210218123703116" loading="lazy"></p>
+<figure data-type="image" tabindex="3"><img src="https://yll21.github.io/post-images/1613641411211.png" alt="" loading="lazy"></figure>
+<p><img src="https://yll21.github.io/post-images/1613641447681.png" alt="" loading="lazy"><br>
+如果还未安装KLink 需要下载安装 <a href="https://kblock.kittenbot.cn/klink/klink-win-1.2.7.zip">官方下载链接</a></p>
+<p>打开KLink  KLink启动后会在右下角托盘应用程序<img src="https://yll21.github.io/post-images/1613641462626.png" alt="" loading="lazy"></p>
+<p>点击左下角<img src="https://yll21.github.io/post-images/1613641723344.png" alt="" loading="lazy"></p>
 <p>点击红框框出来的图标</p>
-<figure data-type="image" tabindex="5"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218124030079.png" alt="image-20210218124030079" loading="lazy"></figure>
-<p>将掌控板与电脑连接后 点击<strong>连接</strong></p>
-<figure data-type="image" tabindex="6"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218124202120.png" alt="image-20210218124202120" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://yll21.github.io/post-images/1613641793100.png" alt="" loading="lazy"></figure>
+<p>将掌控板与电脑连接后 点击<strong>连接</strong><br>
+<img src="https://yll21.github.io/post-images/1613641810866.png" alt="" loading="lazy"></p>
 <p>如图所示的，就是连接成功了</p>
-<figure data-type="image" tabindex="7"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218124312956.png" alt="image-20210218124312956" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://yll21.github.io/post-images/1613641829325.png" alt="" loading="lazy"></figure>
 <h1 id="三编写脚本">三.编写脚本</h1>
 <h2 id="添加素材">添加素材</h2>
 <h3 id="角色paddle-line-ball">角色：Paddle、Line、Ball</h3>
-<figure data-type="image" tabindex="8"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218124653415.png" alt="image-20210218124653415" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://yll21.github.io/post-images/1613641840110.png" alt="" loading="lazy"></figure>
 <h3 id="背景blue-sky-2">背景：Blue Sky 2</h3>
-<figure data-type="image" tabindex="9"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218130251006.png" alt="image-20210218130251006" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://yll21.github.io/post-images/1613641851206.png" alt="" loading="lazy"></figure>
 <h3 id="变量-得分">变量: 得分</h3>
 <h2 id="编写程序">编写程序</h2>
-<h3 id="paddle">Paddle：</h3>
+<p>###Paddle:<br>
+<img src="https://yll21.github.io/post-images/1613642940740.png" alt="" loading="lazy"><br>
+###Line:<br>
+<img src="https://yll21.github.io/post-images/1613642999568.png" alt="" loading="lazy"><br>
+###变量初始化脚本：<br>
+<img src="https://yll21.github.io/post-images/1613643343252.png" alt="" loading="lazy"><br>
+##大功告成 o(<em>￣▽￣</em>)ブ<br>
+点击小绿旗开始 使用掌控板A B 键 控制<br>
+<img src="https://yll21.github.io/post-images/1613643513296.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
