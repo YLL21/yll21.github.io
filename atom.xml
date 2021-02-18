@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yll21.github.io</id>
     <title>YLの博客</title>
-    <updated>2021-02-18T05:09:55.858Z</updated>
+    <updated>2021-02-18T05:13:49.482Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yll21.github.io"/>
     <link rel="self" href="https://yll21.github.io/atom.xml"/>
@@ -41,6 +41,11 @@
 <h2 id="添加素材">添加素材</h2>
 <h3 id="角色paddle-line-ball">角色：Paddle、Line、Ball</h3>
 <figure data-type="image" tabindex="8"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218124653415.png" alt="image-20210218124653415" loading="lazy"></figure>
+<h3 id="背景blue-sky-2">背景：Blue Sky 2</h3>
+<figure data-type="image" tabindex="9"><img src="C:%5CUsers%5Cuser%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210218130251006.png" alt="image-20210218130251006" loading="lazy"></figure>
+<h3 id="变量-得分">变量: 得分</h3>
+<h2 id="编写程序">编写程序</h2>
+<h3 id="paddle">Paddle：</h3>
 ]]></content>
     </entry>
     <entry>
